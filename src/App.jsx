@@ -1,11 +1,14 @@
-import './App.css'
+import styles from './App.module.css'
 
 function App() {
   
 
   return (
     <>
-      Portofolio
+    <div className={styles.App}>
+      <h1>Hello, World!</h1>
+      <p>This is a simple React portfolio.</p>
+    </div>
     </>
   )
 }
