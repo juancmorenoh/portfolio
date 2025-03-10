@@ -11,7 +11,7 @@ function App() {
     <footer>
       {/* References */}
       <a href="https://www.flaticon.com/free-icons/young" title="young icons">Young icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/miscellaneous" title="miscellaneous icons">Miscellaneous icons created by Mayor Icons - Flaticon</a>
     </footer>
     </>
   )
