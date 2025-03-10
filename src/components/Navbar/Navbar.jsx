@@ -10,7 +10,7 @@ function Navbar(){
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">Homepage</a>
       <div className={styles.menu}>
-        {/* /assets/ can't be att to getImageUlr function NSW */}
+        {/* /assets/ can't be add to getImageUlr function NSW */}
         <img className={styles.menuBtn} src={menuOpen
         ? getImageUrl('/assets/nav/menuIcon.png')
         : getImageUrl('/assets/nav/closeIcon.png')}

@@ -1,0 +1,50 @@
+@import "../../vars.css";
+
+.container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}  
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  
+}
+
+.title{
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 80%, rgba(168, 3, 3, 0));
+  /* Sfumatura del testo */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.description{
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.contactBtn{
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.boyImg{
+  width: 50%;
+}
