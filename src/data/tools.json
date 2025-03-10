@@ -22,5 +22,9 @@
   {
     "title": "Django",
     "imageScr" : "tools/django.png"
+  },
+  {
+    "title": "AutoCAD",
+    "imageScr" : "tools/cad.png"
   }
 ]
