@@ -1,0 +1,26 @@
+[
+  {
+    "title": "HTML",
+    "imageScr" : "tools/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageScr" : "tools/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageScr" : "tools/js.png"
+  },
+  {
+    "title": "React",
+    "imageScr" : "tools/react.png"
+  },
+  {
+    "title": "Python",
+    "imageScr" : "tools/python.png"
+  },
+  {
+    "title": "Django",
+    "imageScr" : "tools/django.png"
+  }
+]
