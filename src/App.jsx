@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar.jsx'
 import Intro from './components/Intro/Intro.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import About from './components/About/About.jsx'
+import Tools from './components/Tools/Tools.jsx'
 function App() {
   
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Intro />
       <About />
+      <Tools />
       <Footer />
     </div>
     </>
