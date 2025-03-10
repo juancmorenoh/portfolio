@@ -1,5 +1,8 @@
 import styles from './App.module.css'
+
 import Navbar from './components/Navbar/Navbar.jsx'
+import Intro from './components/Intro/Intro.jsx'
+import Footer from './components/Footer/Footer.jsx'
 function App() {
   
 
@@ -7,12 +10,9 @@ function App() {
     <>
     <div className={styles.App}>
       <Navbar />
+      <Intro />
+      <Footer />
     </div>
-    <footer>
-      {/* References */}
-      <a href="https://www.flaticon.com/free-icons/young" title="young icons">Young icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/miscellaneous" title="miscellaneous icons">Miscellaneous icons created by Mayor Icons - Flaticon</a>
-    </footer>
     </>
   )
 }
