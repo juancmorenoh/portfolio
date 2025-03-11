@@ -1,0 +1,24 @@
+@import "../../vars.css";
+
+.container{
+  margin-top: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+ /* THIS STYLING SHOULD BE GLOBAL */
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects{
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
