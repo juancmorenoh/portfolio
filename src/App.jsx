@@ -5,6 +5,7 @@ import Intro from './components/Intro/Intro.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import About from './components/About/About.jsx'
 import Tools from './components/Tools/Tools.jsx'
+import Experience from './components/Experience/Experience.jsx'
 function App() {
   
 
@@ -15,6 +16,7 @@ function App() {
       <Intro />
       <About />
       <Tools />
+      <Experience />
       <Footer />
     </div>
     </>
