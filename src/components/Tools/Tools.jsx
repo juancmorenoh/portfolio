@@ -17,7 +17,7 @@ function Tools() {
                 </div>
                 <p>{tool.title}</p>
               </div>
-            )
+            );
           })}
         </div>
       </div>
