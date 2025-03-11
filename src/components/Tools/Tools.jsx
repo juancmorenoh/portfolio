@@ -13,7 +13,7 @@ function Tools() {
             return(
               <div key={index} className={styles.tool}>
                 <div className={styles.imageContainer}>
-                  <img src={getImageUrl(`/assets/${tool.imageScr}`)} alt={tool.title} />
+                  <img src={getImageUrl(`/assets/${tool.imageSrc}`)} alt={tool.title} />
                 </div>
                 <p>{tool.title}</p>
               </div>
