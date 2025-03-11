@@ -1,30 +1,30 @@
 [
   {
     "title": "HTML",
-    "imageScr" : "tools/html.png"
+    "imageSrc" : "tools/html.png"
   },
   {
     "title": "CSS",
-    "imageScr" : "tools/css.png"
+    "imageSrc" : "tools/css.png"
   },
   {
     "title": "JavaScript",
-    "imageScr" : "tools/js.png"
+    "imageSrc" : "tools/js.png"
   },
   {
     "title": "React",
-    "imageScr" : "tools/react.png"
+    "imageSrc" : "tools/react.png"
   },
   {
     "title": "Python",
-    "imageScr" : "tools/python.png"
+    "imageSrc" : "tools/python.png"
   },
   {
     "title": "Django",
-    "imageScr" : "tools/django.png"
+    "imageSrc" : "tools/django.png"
   },
   {
     "title": "AutoCAD",
-    "imageScr" : "tools/cad.png"
+    "imageSrc" : "tools/cad.png"
   }
 ]
