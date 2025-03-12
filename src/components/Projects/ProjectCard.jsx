@@ -7,7 +7,7 @@ function ProjectCard({project}) {
   */
   return (
     <div className={styles.container}>
-      <img src={`portfolio/assets/${project.imageSrc}`} alt={`image-${project.title}`} className={styles.image}/>
+      <img src={`/portfolio/assets/${project.imageSrc}`} alt={`image-${project.title}`} className={styles.image}/>
       <h3 className={styles.title}>{project.title}</h3>
       <p className={styles.description}>{project.description}</p>
       <ul className={styles.tools}>

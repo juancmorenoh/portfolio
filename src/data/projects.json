@@ -1,7 +1,7 @@
 [
   {
     "title" : "Black Jack",
-    "imageSrc" : "/projects/blackjack.png",
+    "imageSrc" : "projects/blackjack.png",
     "description" : "Blackjack  is a fun and easy-to-play classic game of 21. Hit, stand, and try to beat the dealer without going over 21! The game has a simple, user-friendly interface with the option to customize your game by adjusting settings like bet amount, number of decks etc...",
     "tools" : ["Javascript", "HTML", "CSS"],
     "source" : "https://github.com/juancmorenoh/blackjack",
@@ -9,7 +9,7 @@
   },
   {
     "title" : "Portfolio",
-    "imageSrc" : "/projects/cv.png",
+    "imageSrc" : "projects/cv.png",
     "description" : "This page is my portfolio project, built using React, where I showcase my work, skills, and experience. You will find a collection of my projects, links to my work, and details about my professional experience.",
     "tools" : ["React","HTML", "CSS"],
     "source" : "https://github.com/juancmorenoh/portfolio",
@@ -17,7 +17,7 @@
   },
   {
     "title" : "Thriathlon Tracker",
-    "imageSrc" : "/projects/running.png",
+    "imageSrc" : "projects/running.png",
     "description" : "The Triathlon Tracker is a web application to help athletes track their training and race performance. It allows users to log swim, bike, and run sessions, analyze progress over time, and set personal goals. This tracker makes it easy to monitor stats, stay motivated, and improve performance!",
     "tools" : ["Python", "Django"],
     "source" : "https://github.com/juancmorenoh/django_triathlon_tracker",
