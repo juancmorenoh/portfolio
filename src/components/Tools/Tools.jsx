@@ -1,7 +1,7 @@
 import React from 'react';
 import tools from '../../data/tools.json';
 import styles from "./Tools.module.css";
-import { getImageUrl } from '../../utils';
+
 
 function Tools() {
   return (
@@ -13,7 +13,7 @@ function Tools() {
             return(
               <div key={index} className={styles.tool}>
                 <div className={styles.imageContainer}>
-                  <img src={getImageUrl(`/assets/${tool.imageSrc}`)} alt={tool.title} />
+                  <img src= {`portfolio/assets/${tool.imageSrc}`} alt={tool.title} />
                 </div>
                 <p>{tool.title}</p>
               </div>

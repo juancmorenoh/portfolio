@@ -1,7 +1,7 @@
 import React from 'react';
 import jobs from '../../data/jobs.json';
 import styles from './Experience.module.css';
-import { getImageUrl } from '../../utils';
+import ses from "/assets/jobs/ses.png";
 
 function Experience() {
   return (
@@ -12,7 +12,7 @@ function Experience() {
           {jobs.map((job, index) => {
             return(
               <div key={index} className={styles.job}>
-                <img src={getImageUrl(`/assets/${job.imageSrc}`)} alt={job.company}/>
+                <img src={ses} alt={job.company}/>
                 <div className={styles.jobItemText}>
                   <h3>{job.role} <i>at</i> {job.company}</h3>
                   <ul>

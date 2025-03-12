@@ -1,6 +1,7 @@
 import React from 'react';
-import { getImageUrl } from '../../utils';
 import styles from "./Footer.module.css";
+import gmail from "/assets/footer/gmail.png";
+import linkedin from "/assets/footer/linkedin.png";
 
 const Footer = () => {
   return (
@@ -12,11 +13,11 @@ const Footer = () => {
         </div>
         <ul className={styles.links}>
           <li className={styles.link}>
-            <img src={getImageUrl("/assets/footer/gmail.png")} alt="gmail icon" />
+            <img src={gmail} alt="gmail icon" />
             <a href="mailto:camilo.mro@gmail.com">camilo.mro@gmail.com</a>
           </li>
           <li className={styles.link}>
-            <img src={getImageUrl("/assets/footer/linkedin.png")} alt="linkedIn icon" />
+            <img src={linkedin} alt="linkedIn icon" />
             <a href="https://www.linkedin.com/in/juancmorenoh/" target="_blank">linkedin.com/juancmorenoh</a>
           </li>
         </ul>
