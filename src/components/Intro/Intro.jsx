@@ -7,7 +7,7 @@ const Intro = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Camilo</h1>
-        <p className={styles.description}>Lorem ipsum odor amet, consectetuer adipiscing elit. Nec est in nascetur aenean ornare morbi faucibus. Semper pretium cubilia luctus senectus mus maecenas finibus.</p>
+        <p className={styles.description}>I graduated in Computer Science and am excited to start my career in the tech industry. Throughout my studies, I developed a strong foundation in software development, web technologies, and problem-solving. I have hands-on experience working with Python, Django, JavaScript, and React, building projects that showcase my skills in full-stack development.</p>
         <a className={styles.contactBtn} href="mailto:camilo.mro@gmail.com">Contact Me</a>
       </div>
       <img className={styles.boyImg} src={getImageUrl("/assets/intro/boy.png")} alt="boy on laptop" />
