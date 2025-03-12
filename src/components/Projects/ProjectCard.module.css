@@ -4,24 +4,24 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background: linear-gradient(180deg,rgb(49, 23, 65) 0%,rgba(168, 3, 3, 0) 100%);
-  box-shadow: 0 16px 32px 0 rgb(53, 34, 124);
+  background: linear-gradient(180deg,var(--color-secondary) 0%,var(--color-bg) 100%);
   max-width: 350px;
   padding: 20px;
 }
- /* THIS STYLING SHOULD BE GLOBAL */
+
 .title{
+  font-family: var(--font-arial);
   font-size: 25px;
   font-weight: 700;
 }
 
 .image{
-  margin-bottom: 25px;
+  margin: 10px auto;
   width: 80%;
 }
 
 .description{
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
 }
@@ -38,9 +38,9 @@
 .tool{
   font-size: 20px;
   font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 4px 15px;
+  border-radius: 5px;
+  background: var(--color-dark);
+  padding: 5px 20px;
 }
 
 .links{
@@ -54,6 +54,14 @@
   color: var(--color-text);
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-secondary);
-  padding: 4px 15px;
+  background: var(--color-dark);
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
+}
+
+.link:hover{
+  color: var(--color-bg);
+  background-color: var(--color-text);
+  transform: scale(1.2);
+  box-shadow: 0 0 5px var(--color-dark);
 }

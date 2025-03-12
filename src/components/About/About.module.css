@@ -2,7 +2,7 @@
 
 .container{
   position: relative;
-  background-color: rgb(49, 23, 65);
+  background-color: var(--color-dark);
   border-radius: 15px;
   margin-top: 120px;
   padding: 70px;
@@ -11,6 +11,7 @@
 }
 
 .title{
+  font-family: var(--font-arial);
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
@@ -24,8 +25,8 @@
   align-items: center;
 }
 .aboutMainImg{
-  width: 35%;
-  margin-right: 40px;
+  width: 30%;
+  min-width: 200px;
 }
 
 .aboutItems{
@@ -40,8 +41,8 @@
   display: flex;
   align-items: center;
   border-radius: 20px;
-  padding: 15px;
-  background: linear-gradient(90deg, rgba(19, 7, 22, 0.4) 0%, rgba(168, 3, 3, 0) 100%);
+  margin: 15px;
+  background: linear-gradient(90deg, var(--color-dark) 0%, var(--color-primary) 100%);
   background-size: 0 100%;
 }
 
@@ -59,11 +60,13 @@
   background-size: 100% 100%;
 }
 .aboutItem h3{
+  font-family: var(--font-arial);
   font-size: 25px;
   font-weight: 600;
 }
 
 .aboutItem p{
+  margin-top: 20px;
   font-size: 23px;
   word-break: break-word;
 }
@@ -88,6 +91,11 @@
   margin-top: 30px;
  }
  .aboutItem{
+  flex-direction: column;
   padding: 10px 0;
+ }
+ .aboutItem:hover{
+  background: linear-gradient(90deg, var(--color-dark) 0%, var(--color-bg) 100%);
+  box-shadow: 0 0 5px var(--color-primary);
  }
 }
